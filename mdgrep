@@ -1,0 +1,2 @@
+#!/bin/sh
+mdfind "$1" | xargs fgrep -nH "$1"
